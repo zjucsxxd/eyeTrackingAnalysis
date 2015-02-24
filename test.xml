@@ -1,0 +1,150 @@
+<Model name="Tapacarp">
+	<Image>/home/chili/Desktop/workspace_tapa.jpg</Image>
+	<AOI name="top">
+		<Point>
+		<X>65</X>
+		<Y>255</Y>
+		</Point>
+		<Point>
+		<X>220</X>
+		<Y>255</Y>
+		</Point>
+		<Point>
+		<X>220</X>
+		<Y>430</Y>
+		</Point>
+		<Point>
+		<X>65</X>
+		<Y>430</Y>
+		</Point>
+	</AOI>
+	<AOI name="front">
+		<Point>
+		<X>65</X>
+		<Y>70</Y>
+		</Point>
+		<Point>
+		<X>220</X>
+		<Y>70</Y>
+		</Point>
+		<Point>
+		<X>220</X>
+		<Y>240</Y>
+		</Point>
+		<Point>
+		<X>65</X>
+		<Y>240</Y>
+		</Point>
+	</AOI>
+	<AOI name="side">
+		<Point>
+		<X>225</X>
+		<Y>70</Y>
+		</Point>
+		<Point>
+		<X>380</X>
+		<Y>70</Y>
+		</Point>
+		<Point>
+		<X>380</X>
+		<Y>240</Y>
+		</Point>
+		<Point>
+		<X>225</X>
+		<Y>240</Y>
+		</Point>
+	</AOI>
+	<AOI name="obj">
+		<Point>
+		<X>415</X>
+		<Y>200</Y>
+		</Point>
+		<Point>
+		<X>590</X>
+		<Y>200</Y>
+		</Point>
+		<Point>
+		<X>590</X>
+		<Y>360</Y>
+		</Point>
+		<Point>
+		<X>415</X>
+		<Y>360</Y>
+		</Point>
+	</AOI>
+</Model>
+
+<Model name="eTapaCarp_screen">
+	<Image>/home/chili/Desktop/etapascreen.jpg</Image>
+	<AOI name="Screen:OBJ">
+		<Point>
+		<X>80</X>
+		<Y>60</Y>
+		</Point>
+		<Point>
+		<X>413</X>
+		<Y>60</Y>
+		</Point>
+		<Point>
+		<X>437</X>
+		<Y>460</Y>
+		</Point>
+		<Point>
+		<X>80</X>
+		<Y>467</Y>
+		</Point>
+	</AOI>
+	<AOI name="Screen:GUI">
+		<Point>
+		<X>414</X>
+		<Y>60</Y>
+		</Point>
+		<Point>
+		<X>585</X>
+		<Y>60</Y>
+		</Point>
+		<Point>
+		<X>580</X>
+		<Y>460</Y>
+		</Point>
+		<Point>
+		<X>438</X>
+		<Y>467</Y>
+		</Point>
+	</AOI>
+	
+</Model>
+
+<Model name="eTapaCarp_table">
+	<Image>/home/chili/Desktop/workspace_etapa.jpg</Image>
+	<AOI name="Table">
+		<Point>
+		<X>90</X>
+		<Y>60</Y>
+		</Point>
+		<Point>
+		<X>550</X>
+		<Y>60</Y>
+		</Point>
+		<Point>
+		<X>560</X>
+		<Y>420</Y>
+		</Point>
+		<Point>
+		<X>70</X>
+		<Y>420</Y>
+		</Point>
+	</AOI>	
+</Model>
+
+<TagObject name="Shape1">
+<Tag>973</Tag>
+<Tag>974</Tag>
+</TagObject>
+<TagObject name="Shape2">
+<Tag>975</Tag>
+
+</TagObject>
+
+
+

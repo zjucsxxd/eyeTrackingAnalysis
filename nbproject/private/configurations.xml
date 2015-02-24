@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Downloads/Fixations_P13.txt -v /home/chili/Desktop/Participant\ 01_tangible-3-recording.avi</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Downloads/fixations_Allfields.txt -v /home/chili/Desktop/Participant\ 01_tangible-3-recording.avi</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Downloads/text.txt -v /home/chili/Desktop/Participant\ 01_tangible-3-recording.avi</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -s -m test.xml -f /home/chili/Downloads/test.txt -v /home/chili/Desktop/Participant\ 01_tangible-3-recording.avi</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Downloads/Fixations_P13.txt -v /home/chili/Desktop/Participant\ 13_tangible-2-recording.avi</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Downloads/test.txt -v /home/chili/Desktop/Participant\ 01_tangible-3-recording.avi</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Desktop/Participant1.txt -v /home/chili/Desktop/Participant1.avi -lb 5 71 112 -ub 18 154 186</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Desktop/Video\ Log/Participant1.txt -v /home/chili/Desktop/Video\ Log/Participant1.avi -lb 5 71 112 -ub 18 154 186</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Desktop/Video\ Log/Participant10.txt -v /home/chili/Desktop/Video\ Log/Participant10.avi -lb 5 71 112 -ub 18 154 186</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Desktop/Video\ Log/Participant10.txt -v /home/chili/Desktop/Video\ Log/Participant10.avi -lb 18 126 128 -ub 29 162 194</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -m test.xml -f /home/chili/Desktop/Video\ Log/Participant10.txt -v /home/chili/Desktop/Video\ Log/Participant10.avi -lb 18 126 128 -ub 29 162 194</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/usr/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
